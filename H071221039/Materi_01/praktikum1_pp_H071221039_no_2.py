@@ -7,12 +7,12 @@ print(28*"-")
 print("Hasilnya adalah :")
 
 Jam = JumlahDetik // 3600
-Sisa = JumlahDetik % 3600
+# Sisa = JumlahDetik % 3600
 
-Menit = Sisa // 60
-Detik = Sisa % 60
+Menit = JumlahDetik // 60
+# Detik = Sisa % 60
 
-print(Jam,":",Menit,":",Detik)
+print("%02d:%02d:%02d"%(Jam, Menit % 60, JumlahDetik % 60))
 print(28*"=")
 print("\tTerima Kasih")
 print(28*"=")
