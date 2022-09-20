@@ -12,10 +12,9 @@ print(hasil)
 print('\n==================\n')
 
 n = int(input('masukkan detik awal : ' ))
-jam = n // 3600 
+jam = n // 3600             #penggunaan // untuk pembulatan angka
 #n = n - 3600*jam
-n = n%3600                      
+n = n%3600                  #penginputannya untuk pengganti variabel sebelumnya(#)                
 menit = n // 60
-n = n%60
-#detik = n - 60*menit
+detik = n - 60*menit
 print(f'{jam:02d}:{menit:02d}:{detik:02d}')
