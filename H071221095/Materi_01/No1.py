@@ -5,6 +5,7 @@ b =input("sudut b")
 
 
 
+
 radian_a = a*math.pi/180
 radian_b = b*math.pi/180
 
