@@ -19,7 +19,6 @@ try:
             break
         else:
             print('input salah')
-
     jam = n // 3600
     jam += 6
     if jam >= 24:
