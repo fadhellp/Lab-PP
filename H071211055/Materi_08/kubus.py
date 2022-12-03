@@ -1,16 +1,15 @@
 class Kubus:
-    def __init__(self,lebar,tinggi,panjang,massa):
+    def __init__(self,lebar,tinggi,panjang):
         self.lebar = lebar
         self.tinggi = tinggi
         self.panjang = panjang
-        self.massa = massa
     
     def setLebar(self,lebar):
         self.lebar = lebar
     def setTinggi(self,tingi):
-        self.lebar = lebar
+        self.tinggi = tinggi
     def setPanjang(self,panjang):
-        self.lebar = lebar
+        self.panjang = panjang
     def setMassa(self,massa):
         self.massa = massa
     def getMassaJenis(self):
@@ -23,7 +22,7 @@ tinggi = float(input())
 panjang = float(input())
 massa = float(input())
 
-kubus = Kubus(lebar,tinggi,panjang,massa)
+kubus = Kubus(lebar,tinggi,panjang)
 
 kubus.setMassa(massa)
 print("Massa Jenis =", kubus.getMassaJenis())
